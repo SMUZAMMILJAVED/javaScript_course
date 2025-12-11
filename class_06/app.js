@@ -9,6 +9,34 @@
 //     }
 // }
 
+// for(var i=0;i<5;i++){
+//     if(i===3){
+//         continue;
+//     }
+//     console.log(i);
+    
+// }
+
+
+// var userInput=prompt('write any thing')
+// var arr=[[[1,2,3],['a','b','c']],[[4,5,6],['d','e','f']]]
+// var flag=false;
+// for(var i =0; i<arr.length;i++){
+//     for(var j=0;j<arr[i].length;j++){
+//         for(var k=0;k<arr[i][j].length;k++){
+//             if(arr[i][j][k]==userInput){
+// console.log('found',userInput);
+// flag=true;
+// break;
+//             };
+            
+//         }
+//     }
+// }
+// if(!flag){
+//     console.log('not found!',userInput);
+// }
+
 
 // for(var i=0;i<5;i++){
 //     var star=''
@@ -90,8 +118,62 @@
 //     console.log("loose! num is",num);
     
 // }
-// convert string to number/decimal
-// var num ='23.9';
-// num=parseInt(num)
+                      // convert string to number/decimal
+// var num ='23.99';
+// num=parseFloat(num);
 // console.log(num);
 
+                     // convert number to string
+
+// var num=89;
+// console.log(num.toString()+2);
+
+                         // decimal fixed 
+
+// var num =9.11857504584;
+// console.log(num.toFixed(2));
+
+                              //  date 
+
+// var date=new Date();
+// console.log(date.getTime());
+    
+// var days=['sun','mon','tue','wed','thurs','fri','sat'];
+// console.log(days[date.getDay()]);
+
+
+// var date=new Date();
+// var doomsDay=new Date('30 june 2035');
+// var result=doomsDay.getTime() - date.getTime();
+// console.log(result/1000/60/60/24/365);
+    
+// var date=new Date();
+// date.setTime(0);
+// console.log(date.getTime());
+
+                        //function
+// function hello(a){
+//     a+5;
+//     return true;
+// }
+// function print(){
+//     console.log("hello");
+    
+// }function add(a,b){ //parameters
+//     return a+b;
+    
+// }
+// function square(a){
+// return a**2;
+// }
+// console.log(print());
+
+// var result=add(5,5);
+// console.log(result);
+
+// var r=square(9);
+// console.log(r);
+
+// add(6,7);
+// add(2,2);//aurguments
+// console.log(hello(5));
