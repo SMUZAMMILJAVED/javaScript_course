@@ -151,7 +151,7 @@
 // date.setTime(0);
 // console.log(date.getTime());
 
-                        //function
+                             //function
 // function hello(a){
 //     a+5;
 //     return true;
@@ -177,3 +177,95 @@
 // add(6,7);
 // add(2,2);//aurguments
 // console.log(hello(5));
+                    //    local vs global variables 
+
+
+// var abc=20; //global variable
+// function sum(a,b){
+//     var abc=10; //local vaiable;
+//     console.log(abc);
+    
+// }
+// sum();
+// console.log(abc);
+
+                    
+
+                                // hoisting 
+// sum();  //beacuse funtions load before script run 
+// function sum(a,b){
+//     var abc=10; //local vaiable;
+//     console.log(abc);
+    
+// }
+
+
+// var abc=20;
+// function sum(a,b){
+//      //local vaiable;
+     
+//     console.log(abc);
+//    var abc=50;;
+    
+// }
+
+
+// sum();
+
+
+
+                          // switch statement 
+// var days=['sun','mon','tues','wed','thurs','fri','sat'];
+// var dayToday=new Date().getDay();                        
+// var day=days[dayToday];;
+// switch(day){
+//  case 'mon':
+//     console.log("today is monday!");
+//     break;
+//  case 'sat':
+//     console.log("today is saturaday!");
+//     break
+//     default:
+//         console.log("invalid day");
+        
+// }
+
+                        // simple calculator 
+
+// function sum(a,b){
+//     return a+b;
+// }
+// function sub(a,b){
+//     return a-b;
+// }
+// function div(a,b){
+//     return a/b;
+// }
+// function mul(a,b){
+//     return a*b;
+// }
+// var a,b,c;
+// a=+prompt("write 1st number",2)
+// b=+prompt("write 2nd number",2)
+// c=prompt("write operation dow you want to perform (+ , - , / , *)","+");
+// switch(c){
+//     case "+":
+//     console.log(sum(a,b));
+    
+//     break;
+//     case "-":
+//     console.log(sub(a,b));
+    
+//     break;
+//     case "*":
+//     console.log(mul(a,b));
+    
+//     break;
+//     case "/":
+//     console.log(div(a,b));
+    
+//     break;
+//     default:
+//         console.log("invalid command!");
+        
+// }
